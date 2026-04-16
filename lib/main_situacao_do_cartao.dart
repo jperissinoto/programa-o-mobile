@@ -36,38 +36,37 @@ class MyApp extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Icon(Icons.contactless, size:25, color: Colors.white),
+                        Icon(Icons.contactless, size: 25, color: Colors.white),
                       ],
                     ),
-
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         SizedBox(height: 20),
-                        Icon(Icons.sim_card, size:25, color: Colors.white),
-                    ],
-                  ),
+                        Icon(Icons.sim_card, size: 25, color: Colors.white),
+                      ],
+                    ),
                     Row(
                       children: [
                         Text(
                           "0000 0000 0000 0000",
                           style: TextStyle(fontSize: 25, color: Colors.white),
                         ),
-                    ],),
+                      ],
+                    ),
                     Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Titular",
-                        style: TextStyle(fontSize: 12, color: Colors.white),
+                        Text(
+                          "Titular",
+                          style: TextStyle(fontSize: 12, color: Colors.white),
                         ),
-
-                   Text(
+                        Text(
                           "Validade",
                           style: TextStyle(fontSize: 12, color: Colors.white),
                         ),
                       ],
                     ),
-
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -79,7 +78,6 @@ class MyApp extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-
                         Text(
                           "12/30",
                           style: TextStyle(
